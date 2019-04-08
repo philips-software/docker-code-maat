@@ -18,6 +18,14 @@ Images can be found on [https://hub.docker.com/r/philipssoftware/code-maat/](htt
 ```
 docker run --rm philipssoftware/code-maat -h
 ```
+
+### Example getting Churn for project
+
+```
+git log --all --numstat --date=short --pretty=format:'--%h--%ad--%aN' --no-renames --after=2019-04-01 > codemaat.txt
+docker run -v $(pwd):/data --rm philipssoftware/code-maat -l /data/codemaat.txt -c git2 -a abs-churn
+```
+
 ## Content
 
 The images obviously contain code-maat, but also two other files:
