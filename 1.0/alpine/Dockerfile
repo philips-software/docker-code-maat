@@ -14,7 +14,7 @@ COPY code-maat $dest
 RUN mv "$(lein uberjar | sed -n 's/^Created \(.*standalone\.jar\)/\1/p')" app-standalone.jar
 
 ADD REPO .
-ADD TAG .
+ADD TAGS .
 
 ENTRYPOINT ["java", "-jar", "app-standalone.jar"]
 CMD []
