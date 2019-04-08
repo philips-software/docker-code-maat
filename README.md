@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/philips-software/scala.svg?branch=master)](https://travis-ci.com/philips-software/scala)
+[![Build Status](https://travis-ci.com/philips-software/code-maat.svg?branch=master)](https://travis-ci.com/philips-software/code-maat)
 [![Slack](https://philips-software-slackin.now.sh/badge.svg)](https://philips-software-slackin.now.sh)
 
 # Code-maat Docker images
