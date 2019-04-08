@@ -58,7 +58,7 @@ You can use this to pin down a version of the container from an existing develop
 We often need some tools in a container for checking some things. F.e. [jq](https://stedolan.github.io/jq/) and [curl](https://curl.haxx.se/).
 We can install this every time we need a container, but having this baked into a container seems a better approach.
 
-For Scala there is no official docker image available. Of course we could use `hseeberger/scala-sbt`, but we might want another linux version in our image for whatever reason.
+For Code-maat there is no official docker image. We can build it ourselves, but having it versioned in a pipeline is always better. We strive for immutable builds.
 
 That's why we want our own docker file definitions.
 
