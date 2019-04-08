@@ -64,7 +64,7 @@ That's why we want our own docker file definitions.
 
 ## Issues
 
-- If you have an issue: report it on the [issue tracker](https://github.com/philips-software/scala/issues)
+- If you have an issue: report it on the [issue tracker](https://github.com/philips-software/code-maat/issues)
 
 ## Author
 
