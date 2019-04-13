@@ -57,10 +57,9 @@ You can use this to pin down a version of the container from an existing develop
 ## Simple Tags
 
 ### code-maat
-- `code-maat`, `code-maat:master` [1.0/alpine/Dockerfile](1.0/alpine/Dockerfile)
+- `code-maat`, `code-maat:1, `code-maat:1.0`, `code-maat:1.0.2`, `code-maat:1.0.2-alpine` [1.0/alpine/Dockerfile](1.0/alpine/Dockerfile)
 
-### Older images
-- `code-maat:1`, `code-maat:1.0`, `code-maat:1.0.1`, `code-maat:1.0.1-alpine` refering to code-maat:v1.0.1 
+- `code-maat:1.0.1`, `code-maat:1.0.1-alpine` refering to code-maat:v1.0.1 
 
 ## Why?
 
