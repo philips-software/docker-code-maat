@@ -38,7 +38,7 @@ This file has a url to the REPO with specific commit-sha of the build.
 Example:
 
 ```
-$ docker run philipssoftware/code-maat cat REPO
+$ docker run --entrypoint "/bin/cat"  philipssoftware/code-maat REPO 
 https://github.com/philips-software/code-maat/tree/facb2271e5a563e5d6f65ca3f475cefac37b8b6c
 ```
 
@@ -47,7 +47,7 @@ https://github.com/philips-software/code-maat/tree/facb2271e5a563e5d6f65ca3f475c
 This contains all the similar tags at the point of creation.
 
 ```
-$ docker run philipssoftware/code-maat cat TAGS
+$ docker run --entrypoint "/bin/cat"  philipssoftware/code-maat TAGS
 code-maat code-maat:1 code-maat:1.0 code-maat:1.0.1 code-maat:1.0.1-alpine
 ```
 
