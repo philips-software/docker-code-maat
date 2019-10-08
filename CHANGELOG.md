@@ -11,5 +11,6 @@ and this project uses the version of main tool as main version number .
 
 ### Changed
 - Repository name from `code-maat` to `docker-code-maat`
+- Uses Github Action instead of travis-ci
 
 [Unreleased]: https://github.com/philips-software/docker-code-maat
