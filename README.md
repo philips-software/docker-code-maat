@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/philips-software/docker-code-maat.svg?branch=master)](https://travis-ci.com/philips-software/docker-code-maat)
+[![Build Status](https://github.com/philips-software/docker-code-maat/workflows/Build%20Docker%20images/badge.svg)](https://github.com/philips-software/docker-code-maat/actions?workflow=Build+Docker+images)
 [![Slack](https://philips-software-slackin.now.sh/badge.svg)](https://philips-software-slackin.now.sh)
 
 # Code-maat Docker images
