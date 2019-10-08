@@ -9,4 +9,7 @@ and this project uses the version of main tool as main version number .
 ### Added
 - Add code-maat
 
-[Unreleased]: https://github.com/philips-software/code-maat
+### Changed
+- Repository name from `code-maat` to `docker-code-maat`
+
+[Unreleased]: https://github.com/philips-software/docker-code-maat

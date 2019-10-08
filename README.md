@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/philips-software/code-maat.svg?branch=master)](https://travis-ci.com/philips-software/code-maat)
+[![Build Status](https://travis-ci.com/philips-software/docker-code-maat.svg?branch=master)](https://travis-ci.com/philips-software/docker-code-maat)
 [![Slack](https://philips-software-slackin.now.sh/badge.svg)](https://philips-software-slackin.now.sh)
 
 # Code-maat Docker images
@@ -39,7 +39,7 @@ Example:
 
 ```
 $ docker run --entrypoint "/bin/cat"  philipssoftware/code-maat REPO 
-https://github.com/philips-software/code-maat/tree/facb2271e5a563e5d6f65ca3f475cefac37b8b6c
+https://github.com/philips-software/docker-code-maat/tree/facb2271e5a563e5d6f65ca3f475cefac37b8b6c
 ```
 
 ### TAGS
@@ -74,7 +74,7 @@ That's why we want our own docker file definitions.
 
 ## Issues
 
-- If you have an issue: report it on the [issue tracker](https://github.com/philips-software/code-maat/issues)
+- If you have an issue: report it on the [issue tracker](https://github.com/philips-software/docker-code-maat/issues)
 
 ## Author
 
