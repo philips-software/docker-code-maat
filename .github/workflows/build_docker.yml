@@ -1,0 +1,23 @@
+on: [push]
+
+name: Build Docker images
+
+jobs:
+  build_code_maat:
+    name: Build node lts
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - uses: actions/checkout@master
+      with:
+        submodules: true
+
+    - name: Build Docker Images
+      run: |
+        ./ci/bin/docker_build_and_push.sh 1.0/alpine code-maat code-maat:1 code-maat:1.0 code-maat:1.0.2 code-maat:1.0.2-alpine
+      env:
+        DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
+        DOCKER_PASSWORD: '${{ secrets.DOCKER_PASSWORD }}'
+        DOCKER_ORGANIZATION: ${{ secrets.DOCKER_ORGANIZATION }}
+        GITHUB_ORGANIZATION: ${{ secrets.GITHUB_ORGANIZATION }}
