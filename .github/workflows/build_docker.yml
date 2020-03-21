@@ -10,6 +10,8 @@ jobs:
     steps:
 
     - uses: actions/checkout@v2
+      with:
+        submodules: recursive
       
     - name: Build Docker Images
       uses: philips-software/docker-ci-scripts@v2.0.1
