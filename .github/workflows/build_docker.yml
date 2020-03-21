@@ -1,26 +1,26 @@
-on:
-  push:
-    branches:
-    - master
+on: [push]
 
 name: Build Docker images
 
 jobs:
   build_code_maat:
-    name: Build node lts
+    name: Build 
     runs-on: ubuntu-latest
 
     steps:
 
-    - uses: actions/checkout@master
+    - uses: actions/checkout@v2
       with:
-        submodules: true
-
+        submodules: recursive
+      
     - name: Build Docker Images
-      run: |
-        ./ci/bin/docker_build_and_push.sh 1.0/alpine code-maat code-maat:1 code-maat:1.0 code-maat:1.0.2 code-maat:1.0.2-alpine
+      uses: philips-software/docker-ci-scripts@v2.0.1
+      with:
+        dockerfile: 1/alpine
+        image-name: code-maat
+        tags: latest 1 1.0 1.0.2 1.0.2-alpine
       env:
         DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
         DOCKER_PASSWORD: '${{ secrets.DOCKER_PASSWORD }}'
-        DOCKER_ORGANIZATION: ${{ secrets.DOCKER_ORGANIZATION }}
-        GITHUB_ORGANIZATION: ${{ secrets.GITHUB_ORGANIZATION }}
+        DOCKER_ORGANIZATION: philipssoftware
+        GITHUB_ORGANIZATION: philips-software

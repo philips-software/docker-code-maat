@@ -10,6 +10,7 @@ and this project uses the version of main tool as main version number .
 - Add code-maat
 
 ### Changed
+- Update docker-ci-scripts 
 - Repository name from `code-maat` to `docker-code-maat`
 - Uses Github Action instead of travis-ci
 
