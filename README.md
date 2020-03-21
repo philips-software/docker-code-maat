@@ -8,7 +8,7 @@ This repo will contain code-maat docker images
 Current versions available:
 ```
 .
-├── 1.0
+├── 1
 │   └── alpine
 │       └── Dockerfile
 ```

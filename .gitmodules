@@ -1,8 +1,0 @@
-[submodule "1.0/alpine/code-maat"]
-	path = 1.0/alpine/code-maat
-	url = https://github.com/adamtornhill/code-maat.git
-	branch = master
-[submodule "ci/bin"]
-	path = ci/bin
-	url = https://github.com/philips-software/docker-ci-scripts.git
-	branch = master
