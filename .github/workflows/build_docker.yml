@@ -4,7 +4,7 @@ name: Build Docker images
 
 jobs:
   build_code_maat:
-    name: Build node lts
+    name: Build 
     runs-on: ubuntu-latest
 
     steps:
